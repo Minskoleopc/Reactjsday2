@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {useState} from 'react';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+   // let count = 0 ;
+
+    let [count , setCount ]= useState(0);
+
+    let handleClick = function () {
+        // count = count + 1
+        // console.log(count)
+        setCount(count+1)
+    }
+
+    // let handleClick =  () => {
+    //     console.log('Button is clicked')
+    // }
+    //let handleClick =() =>console.log('Button is clicked')
+    return (
+        <div>
+            <button onClick={handleClick}>Count attempt</button>
+            <div>No of attempt:{count}</div>
+        </div>
+    )
+
+
+
+    // return (
+    //     <div>
+    //         <button onClick={() =>console.log('Button is clicked')}>Count attempt</button>
+    //     </div>
+    // )
 }
 
-export default App;
+export default App
