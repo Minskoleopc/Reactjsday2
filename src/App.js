@@ -1,4 +1,7 @@
 import {useState} from 'react';
+import Greet  from './Greet';
+import Welcome from './Welcome'
+import Hello  from './Hello';
 function App() {
 
    // let count = 0 ;
@@ -19,6 +22,11 @@ function App() {
         <div>
             <button onClick={handleClick}>Count attempt</button>
             <div>No of attempt:{count}</div>
+            <Greet firstName = "poorva"/>
+            <Greet firstName = "sarika"/>
+            <Greet firstName = "amol"/>
+            <Welcome/>
+            <Hello/>
         </div>
     )
 
