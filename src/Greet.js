@@ -1,8 +1,17 @@
 
 import React from "react";
-function Greet(props){
+function Greet({firstName,lastName,children}){
 
-    return <h1>hello {props.firstName}</h1>
+    //console.log(prop)
+
+    return (
+        <div>
+            <h1>hello {firstName}{lastName}</h1>
+            {children}
+        </div>
+    )
+    
+    
 
     // JSX
 }
