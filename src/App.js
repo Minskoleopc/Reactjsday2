@@ -5,6 +5,8 @@ import Hello from './Hello';
 import Hello2 from './Hello2';
 import Welcome2 from './Welcome2';
 import Props from './Props';
+import Msg from './Msg';
+import Msg2 from './Msg2';
 function App() {
 
     // let count = 0 ;
@@ -32,14 +34,16 @@ function App() {
             <Hello/>
             <Hello2/>
             <Welcome2/> */}
-
+{/* 
             <Props name="ram" lastName="dani" />
             <Props name="sham" lastName="deshmukh" />
             <Props name="satish" lastName="dani" />
 
             <Greet firstName = "chinmay" lastName = "deshpande">
                 <p>Hello i am learning js</p>
-            </Greet>
+            </Greet> */}
+            <Msg message = "Welcome"/>
+            <Msg2 message = "Bye"/>
 
 
 
