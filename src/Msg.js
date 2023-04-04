@@ -19,8 +19,6 @@ class Msg extends Component {
         })
     }
 
-
-
     render(){
         return (
             <div>

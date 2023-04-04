@@ -9,10 +9,10 @@ let Hello2 = function () {
     //     </div>
     // )
 
-    return React.createElement('div'
-        , { className: 'one' },
-        React.createElement('h1', null,"Hello2")
-    )
+    // return React.createElement('div'
+    //     , { className: 'one' },
+    //     React.createElement('h1', null,"Hello2")
+    // )
 
 
 

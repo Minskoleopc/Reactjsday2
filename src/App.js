@@ -7,6 +7,7 @@ import Welcome2 from './Welcome2';
 import Props from './Props';
 import Msg from './Msg';
 import Msg2 from './Msg2';
+import Count from './Count';
 function App() {
 
     // let count = 0 ;
@@ -44,6 +45,7 @@ function App() {
             </Greet> */}
             <Msg message = "Welcome"/>
             <Msg2 message = "Bye"/>
+            <Count/>
 
 
 
