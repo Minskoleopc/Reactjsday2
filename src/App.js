@@ -8,6 +8,9 @@ import Props from './Props';
 import Msg from './Msg';
 import Msg2 from './Msg2';
 import Count from './Count';
+import ClassClick  from './ClassClick';
+import FunctionClick  from './FunctionClick';
+import EventBind from './EventBind';
 function App() {
 
     // let count = 0 ;
@@ -45,10 +48,12 @@ function App() {
             </Greet> */}
             <Msg message = "Welcome"/>
             <Msg2 message = "Bye"/>
+            
             <Count/>
-
-
-
+            <ClassClick/>
+            <FunctionClick/>
+            <EventBind/>
+            
         </div>
     )
 
