@@ -11,6 +11,7 @@ import Count from './Count';
 import ClassClick  from './ClassClick';
 import FunctionClick  from './FunctionClick';
 import EventBind from './EventBind';
+import ParentComponent from './ParentComponent';
 function App() {
 
     // let count = 0 ;
@@ -53,7 +54,7 @@ function App() {
             <ClassClick/>
             <FunctionClick/>
             <EventBind/>
-            
+            <ParentComponent/>
         </div>
     )
 
