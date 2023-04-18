@@ -12,6 +12,7 @@ import ClassClick  from './ClassClick';
 import FunctionClick  from './FunctionClick';
 import EventBind from './EventBind';
 import ParentComponent from './ParentComponent';
+import UserGreet from './UserGreet';
 function App() {
 
     // let count = 0 ;
@@ -55,6 +56,7 @@ function App() {
             <FunctionClick/>
             <EventBind/>
             <ParentComponent/>
+            <UserGreet/>
         </div>
     )
 

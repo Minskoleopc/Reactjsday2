@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-
 class EventBind extends Component {
-
     constructor() {
         super()
         this.state = {
             message: "hello"
         }
     }
-
     // ClickH(){
     //     // console.log(this)
 
@@ -22,8 +19,6 @@ class EventBind extends Component {
             message: "Bye"
         })
     }
-
-
     render() {
         return (
             <div>
@@ -31,12 +26,9 @@ class EventBind extends Component {
                 {/* <button onClick={this.ClickH.bind(this)}> ClickMe</button> */}
                 {/* <button onClick={()=>this.ClickH()}> ClickMe</button> */}
                 <button onClick={this.ClickH}> ClickMe</button>
-
             </div>
-
         )
     }
-
 
 }
 

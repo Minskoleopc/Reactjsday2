@@ -18,8 +18,6 @@ class Count extends Component {
         // })
 
         this.setState(prevstate =>({ count: prevstate.count + 1}))
-
-
     }
 
     incrementFive() {
